@@ -95,15 +95,6 @@
     └── api/               // 서버 통신 관련이 있겠구나
     ```
     
-    ```jsx
-    // ❌ 이렇게 되면 빌드 에러!
-    // A.js
-    import B from './B.js'
-    
-    // B.js  
-    import A from './A.js'  // A와 B가 서로를 부름 → 무한루프!
-    ```
-    
 
 ### **4. 확장성 (Scalability)**
 
